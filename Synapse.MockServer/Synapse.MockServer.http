@@ -1,0 +1,6 @@
+@Synapse.MockServer_HostAddress = http://localhost:5092
+
+GET {{Synapse.MockServer_HostAddress}}/Orders/
+Accept: application/json
+
+###
